@@ -1,0 +1,15 @@
+info:
+  name: Revoca la sesión actual
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: http://localhost:3000/auth/logout
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

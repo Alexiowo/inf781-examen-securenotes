@@ -1,0 +1,15 @@
+info:
+  name: Elimina una nota propia
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:3000/notes/d32c23dd-e8d0-41ef-bc4f-c95e191acf42
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
